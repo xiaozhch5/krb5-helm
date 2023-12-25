@@ -12,9 +12,6 @@ RUN yum -y --setopt=tsflags=nodocs update \
     krb5-pkinit \
     krb5-server \
     krb5-server-ldap \
- && yum clean all
-
-RUN yum -y install \
     krb5-workstation \
     pam_krb5 \
     openssh-server \
