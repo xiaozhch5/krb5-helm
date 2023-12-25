@@ -1,4 +1,4 @@
-FROM centos:7.5.1804
+FROM centos:centos7
 
 ARG dict_version=2.9.0-11.el7
 ARG expect_version=5.45-14.el7_1
